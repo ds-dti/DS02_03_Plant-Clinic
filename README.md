@@ -48,7 +48,7 @@ cd DS02_03_Plant-Clinic
 ```
 Lalu install dependensi library nya
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Lalu Run Aplikasi
