@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>Plant Clinic</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+        
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #25282b;
+            color: white;
+            text-align: center;
+            height: 55px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <a class="navbar-brand" href="/">Plant Clinic</a>
+          <!--...-->
+    </nav>
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px; margin-top: 25px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    
+                </span>
+            </div>
+
+            <div class="col-sm" style="margin-top: 25px;">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(58 168 83); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+
+                    
+
+                        <h2>Tidak ada penyakit pada tanamanmu</span></h2></br>
+                        <h4 style="line-height: 150%;">Kamu tidak perlu khawatir karena tanamanmu sehat, terus pertahankan yaa!</h4>
+                        <hr class="w-100 mx-auto ">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <section>
+        <div class="container-fluid details" style="margin-top: 150px">
+        <div class="col text-center">
+           <a href="/">
+           <button type="button" class="btn btn-info" style="align-items: center; font-size: 20px;">Home</button>
+           </a>
+        </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="footer">
+
+            <h4 style="font-size: 1rem; color: #ffffff; padding-bottom: 15px;" class="text-center my-3 contents">
+                Made by Group 3 DS02 DTI Telkom </h4>
+
+        </div>
+    </section>
+    
+</body>
+
+</html>
+
+

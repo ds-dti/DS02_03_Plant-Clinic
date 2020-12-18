@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>Plant Clinic</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .card-style {
+            background-color: #dcdcdc;
+
+        }
+
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+
+        @media (max-width: 430px) and (min-width: 200px) {
+
+
+        .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+
+            .content-h1 {
+
+                font-size: 1rem;
+            }
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+        
+        .footer {
+            
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #25282b;
+            color: white;
+            text-align: center;
+            height: 55px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <a class="navbar-brand" href="/">Plant Clinic</a>
+          <!--...-->
+    </nav>
+  
+ 
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px; margin-top: 25px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    
+                </span>
+            </div>
+
+            <div class="col-sm" style="margin-top: 25px;">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(186, 12, 0); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+
+                <h2>Nama Penyakit: </span></h2>
+                <h3 style="line-height: 150%;"><strong>Penyakit Bintik Laba-Laba pada Tomat/Tomato Spider Mites - Two Spotted Spider Mite</strong></h3>
+                <hr class="w-100 mx-auto ">
+            </div>
+        </div>
+
+         <h2> Deskripsi Penyakit: </h2>
+            <p style="font-size: 17px;"> Penyakit disebabkan oleh tungau laba-laba dari genus Tetranychus. 
+                Tungau laba-laba yang memamah biak menyebabkan terbentuknya bintik-bintik putih hingga 
+                kuning di permukaan atas daun. Telurnya menempel di bagian bawah daun. Tungau laba-laba 
+                bersarang di kepompong yang berupa anyaman. Seiring berjalanya waktu, daun menjadi
+                berwarna perunggu atau keperakan dan menjadi rapuh, sobek di antara pembuluh daun,
+                dan akhirnya gugur. Pucuk tunas menjadi gundul, tunas tumbuh menyamping. Kuantitas
+                dan kualitas buah menurun.
+            </p><br>
+         <hr class="w-100 mx-auto ">   
+        
+        
+        <h2> Tindakan Pencegahan: </h2>
+        
+         <ol style="padding-left: 20px; font-size: 17px;">
+            <li>Selalu memeriksa bagian bawah daun</li>
+            <li>Membuang daun atau tanaman yang terserang</li>
+            <li>Menyingkirkan jelatang dan gulma-gulma lain</li>
+            <li>Memasok air ke jalur-jalur lintas dan area berdebu secara rutin</li>
+            <li>Menyirami tanaman secara teratur</li>
+        </ol><br> 
+        <hr class="w-100 mx-auto ">
+
+
+
+        <h2> Pengobatan: </h2>
+         <ol style="padding-left: 20px; font-size: 17px;">
+            <li>Membersihkan tungau dan buang daun yang terserang, siapkan bahan olahan dari biji rapa, selasih, kedelai, dan minyak nimba untuk menyemprot daun secara menyeluruh.</li>
+            <li>Dapat juga menggunakan teh bawang putih, bubur jelatang, atau larutan sabun insektisida untuk mengendalikan populasi.</li>
+            <li>Menggunakan tungau pemangsanya (misalnya Phytoseiulus persimilis)</li>
+            <li>Menggunakan pestisida biologis Bacillus thuringiensis</li>
+            <li>Menggunakan fungisida berbasis belerang, spiromesifen, dicofol, atau abamektin</li>
+        </ol><br> 
+        <hr class="w-100 mx-auto ">
+        
+        <p></p>
+    </div>
+    
+
+    <section>
+        <div class="container-fluid details">
+        <div class="col text-center" style = "padding-bottom: 20px;">
+           <a href="/">
+           <button type="button" class="btn btn-info" style="align-items: center; font-size: 20px;">Home</button>
+           </a>
+        </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="footer">
+
+            <h4 style="font-size: 1rem; color: #ffffff; padding-top: 15px;" class="text-center my-3 contents">
+                Made by Group 3 DS02 DTI Telkom </h4>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
