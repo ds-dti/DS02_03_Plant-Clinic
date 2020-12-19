@@ -1,10 +1,10 @@
 # Plant-Clinic : A Web Application for Plant Diseases Classification and Recommendation with Convolutional Neural Network
 
-# Accruracy Model Mencapai 95%
+# Accuracy Model Mencapai 94%
 
 ![Poster Tubes DTI](https://github.com/ds-dti/DS02_03_Plant-Clinic/blob/master/Poster-1.png)
 
-Web Application ini merupakan sebuah hasil dari project ahir yang kami selesaikan pada Digital Talent Incubator (DTI) 2020 yang ditujukan untuk membantu para petani bahkan masyarakat umum yang ingin bercocok tanam namun masih ragu apa yang harus dilakukan jika tanaman tersebut terkena sebuah penyakit.
+Web Application ini merupakan sebuah hasil dari project akhir yang kami selesaikan pada Digital Talent Incubator (DTI) 2020 yang ditujukan untuk membantu para petani bahkan masyarakat umum yang ingin bercocok tanam namun masih ragu apa yang harus dilakukan jika tanaman tersebut terkena sebuah penyakit.
 
 Berikut adalah Anggota dari Tim Plant-Clinic:
 - Muhammad Apriandito (Mentor)
@@ -27,7 +27,7 @@ Pengembangan produk ini mendukung usaha pemerintah Indonesia dalam mencapai Sust
 ## Cara Penggunaan
 Berikut cara menggunakan aplikasi Plant-Clinic.
 
-#### Kunjungi halman berikut ini
+#### Kunjungi halaman berikut ini
 ```bash
 https://plant-clinic.herokuapp.com/
 ```
