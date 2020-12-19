@@ -1,5 +1,7 @@
 # Plant-Clinic : A Web Application for Plant Diseases Classification and Recommendation with Convolutional Neural Network
 
+# Accruracy Model Mencapai 95%
+
 ![Poster Tubes DTI](https://github.com/ds-dti/DS02_03_Plant-Clinic/blob/master/Poster-1.png)
 
 Web Application ini merupakan sebuah hasil dari project ahir yang kami selesaikan pada Digital Talent Incubator (DTI) 2020 yang ditujukan untuk membantu para petani bahkan masyarakat umum yang ingin bercocok tanam namun masih ragu apa yang harus dilakukan jika tanaman tersebut terkena sebuah penyakit.
@@ -39,6 +41,10 @@ Berikut ini merupakan jenis tanaman yang bisa kami kenali, untuk kedepannya tida
 Apel, Tomat, Anggur, Jagung, Kentang, Paprika, Persik, Strawberry, Lada, Jeruk, Cherry, Labu
 ```
 
+#### Kalian juga bisa melihat cara pemakaian pada link YouTube berikut ini
+```
+https://www.youtube.com/watch?v=hh9JLaMtqvE&feature=emb_title
+```
 
 ## Install di Local
 Jika anda ingin menambahkan atau menginstall aplikasi ini di local, anda bisa melakukan clone repository github Plant-CLinic
