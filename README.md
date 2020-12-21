@@ -24,6 +24,15 @@ Plant Clinic merupakan sebuah web app yang dapat mendeteksi penyakit pada tanama
 ## Tujuan
 Pengembangan produk ini mendukung usaha pemerintah Indonesia dalam mencapai Sustainable Development Goals atau SDG yang diharapkan akan tercapai seluruhnya pada tahun 2030. Secara langsung, proyek ini mendukung pencapaian Tujuan ke-15 yaitu Ekosistem Daratan, dan secara tidak langsung, proyek ini mendukung pencapaian Tujuan ke-2 (Tanpa Kelaparan), Tujuan ke-8 (Pekerjaan Layak dan Pertumbuhan Ekonomi), serta Tujuan ke-12 (Konsumsi dan Produksi yang Bertanggung Jawab). Kami menyadari bahwa mencapai ke-17 tujuan SDG ini mungkin terlihat sangat sulit untuk tercapai. Namun, kami percaya, jika setiap kalangan masyarakat berusaha sesuai dengan keahlian mereka masing-masing, mencapai ke-17 tujuan tersebut bukanlah hal yang mustahil. Ini adalah kontribusi kami, Kontribusi Data Scientist untuk UN Sustainable Development Goals 2030.
 
+## Arsitektur Model Plant-Clinic
+Model yang ada dibalik Plant-Clinic menggunakan arsitektur Convolutional Neural Network (CNN). CNN adalah salah satu jenis arsitektur neural network yang biasa digunakan pada data image yang merupakan basis dari model yang Plant-Clinic. Kemampuan utama CNN adalah arsitektur yang mampu mengenali informasi prediktif suatu objek (gambar, teks, potongan suara, dan sebagainya) walaupun objek tersebut dapat diposisikan dimana saja pada input. Kontribusi CNN di feature extraction layer adalah pada convolution dan pooling layer. Convolution bekerja dengan prinsip sliding window dan weight sharing (mengurangi kompleksitas perhitungan). Pooling layer digunakan untuk merangkum informasi yang dihasilkan oleh suatu convolution (mengurangi dimensi). Sedangkan vektor hasil dari beberapa operasi convolution dan pooling pada multilayer perceptron dikenal sebagai fully-connected layer yang digunakan untuk melakukan suatu pekerjaan (misal klasifikasi).<br>
+Sumber : https://machinelearning.mipa.ugm.ac.id/2018/06/25/fully-connected-layer-cnn-dan-implementasinya/
+
+Dengan gambaran arsitektur seperti dibawah ini:
+<p align="center">
+  <img width="320" height="853" src="https://github.com/ds-dti/DS02_03_Plant-Clinic/blob/master/gambar/Arsitektur%20Model%20Plant%20Clinic.jpeg">
+</p>
+
 ## Cara Penggunaan
 Berikut cara menggunakan aplikasi Plant-Clinic.
 
